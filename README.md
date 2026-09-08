@@ -10,8 +10,8 @@ O centro do projeto não é o circuito. É a turma tomar uma decisão com base e
 
 O projeto tem dois documentos de apoio, disponíveis à parte:
 
-- Plano de aula do professor, com sequência de cinco encontros e rubrica de avaliação (link)
-- Caderno do estudante, com texto de contextualização, roteiro de montagem e questões (link)
+- Plano de aula do professor, com sequência de cinco encontros e rubrica de avaliação (https://docs.google.com/document/d/1E9AIvbjFdhr3aXozmX7OQwVz5_H0VzR4/edit?usp=sharing&ouid=103001139064850513237&rtpof=true&sd=true)
+- Caderno do estudante, com texto de contextualização, roteiro de montagem e questões (https://docs.google.com/document/d/1Jmi32JEc8JQsDOzolHRh1Uq_QDRecJ5s/edit?usp=sharing&ouid=103001139064850513237&rtpof=true&sd=true)
 
 ## Pergunta investigativa
 
