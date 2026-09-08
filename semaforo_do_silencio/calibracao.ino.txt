@@ -1,0 +1,46 @@
+/*
+  ATENÇÃO: este arquivo está com a extensão .txt de propósito.
+
+  Se ele ficasse como .ino dentro desta mesma pasta, o Arduino IDE
+  tentaria compilar os dois sketches juntos e apontaria erro de
+  função setup() duplicada.
+
+  Para usar este sketch de calibração:
+    1. Crie uma pasta chamada calibracao
+    2. Salve este conteúdo dentro dela como calibracao.ino
+    3. Abra e envie para a placa
+
+  Depois de descobrir os valores da sua sala, volte para o sketch
+  principal e ajuste as variáveis limiteBaixo e limiteAlto.
+*/
+
+/*
+  Calibração do sensor de som
+
+  Este sketch não acende LED nenhum. Ele apenas mostra a leitura
+  bruta do sensor no Serial Monitor, para que a turma descubra
+  quais números correspondem ao silêncio, à conversa normal e ao
+  barulho da sala inteira falando.
+
+  Como usar
+    1. Envie este código para a placa
+    2. Abra o Serial Monitor em 9600 baud
+    3. Peça silêncio total e anote a faixa de valores
+    4. Peça conversa normal e anote
+    5. Peça que todos falem ao mesmo tempo e anote
+    6. Escolha os limiares a partir do que foi observado
+*/
+
+const int PINO_SENSOR = A0;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("Calibracao iniciada");
+  Serial.println("Anote os valores em cada situacao");
+}
+
+void loop() {
+  int leitura = analogRead(PINO_SENSOR);
+  Serial.println(leitura);
+  delay(200);
+}

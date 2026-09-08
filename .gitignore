@@ -1,0 +1,20 @@
+# Artefatos de compilação do Arduino
+build/
+*.hex
+*.elf
+*.o
+*.d
+*.a
+
+# PlatformIO, caso alguém use
+.pio/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
