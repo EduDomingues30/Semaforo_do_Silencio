@@ -1,26 +1,9 @@
 /*
-  Semáforo do Silêncio
-  Projeto STEAM de medição de ruído da sala de aula
 
   O sensor de som capta o barulho do ambiente e o Arduino classifica
   essa leitura em três faixas, acendendo um LED para cada uma delas.
   As leituras também são enviadas para o Serial Monitor, para que a
   turma possa registrar os dados e transformá-los em gráfico depois.
-
-  Componentes
-    1x Arduino Uno
-    1x Módulo sensor de som KY-037 (saída analógica)
-    3x LEDs (verde, amarelo e vermelho)
-    3x Resistores de 220 ohms
-    1x Protoboard e jumpers
-
-  Ligações
-    Sensor  +   -> 5V
-    Sensor  G   -> GND
-    Sensor  A0  -> A0
-    LED verde    -> pino 11, com resistor de 220 ohms
-    LED amarelo  -> pino 12, com resistor de 220 ohms
-    LED vermelho -> pino 13, com resistor de 220 ohms
 
   Autor: Eduardo Domingues
   Licença: CC BY 4.0
