@@ -6,6 +6,13 @@ Um sensor de som ligado a um Arduino mede o nível de ruído da sala de aula e c
 
 O centro do projeto não é o circuito. É a turma tomar uma decisão com base em evidência que ela mesma produziu.
 
+## Material pedagógico
+
+O projeto tem dois documentos de apoio, disponíveis à parte:
+
+- Plano de aula do professor, com sequência de cinco encontros e rubrica de avaliação (link)
+- Caderno do estudante, com texto de contextualização, roteiro de montagem e questões (link)
+
 ## Pergunta investigativa
 
 > Quanto barulho a nossa sala realmente faz, e o que os dados nos dizem sobre como queremos conviver?
@@ -95,12 +102,6 @@ O projeto atende ao complemento de Computação da BNCC e a Ciências:
 
 Nas áreas do STEAM: som e ondas em Ciências, sensor e programação em Tecnologia, protótipo em Engenharia, painel visual em Arte, e tratamento de série de dados em Matemática.
 
-## Material pedagógico
-
-O projeto tem dois documentos de apoio, disponíveis à parte:
-
-- Plano de aula do professor, com sequência de cinco encontros e rubrica de avaliação
-- Caderno do estudante, com texto de contextualização, roteiro de montagem e questões
 
 ## Licença
 
